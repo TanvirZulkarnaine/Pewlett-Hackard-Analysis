@@ -50,11 +50,20 @@ CREATE TABLE titles (
 	title VARCHAR NOT NULL,
 	from_date DATE,
 	to_date DATE,
-	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
-	PRIMARY KEY (emp_no)
+	FOREIGN KEY (emp_no) REFERENCES employees (emp_no)
 );
 
-SELECT * FROM departments;
+SELECT * FROM titles;
+
+
+
+
+
+
+
+
+
+
 
 
 
